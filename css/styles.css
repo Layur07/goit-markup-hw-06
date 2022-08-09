@@ -1,0 +1,210 @@
+:root{
+    --main-font: 'Roboto',
+        sans-serif;
+    --main-light: #FFFFFF;
+    --main-dark: #212121;
+    --secondary-dark: #757575;
+    --secondary-light: rgba(255, 255, 255, 0.6);
+    --active-color: #2196F3;
+    --logo-color: #000000;
+    --background-color: #2F303A;
+    --btn-color: #F5F4FA;
+    --btn-active-color: #188CE8;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-dark);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.menu-link:hover,
+.menu-link:focus, 
+.contact-phone-number:hover,
+.contact-phone-number:focus,
+.email:hover,
+.email:focus, 
+.footer-contact-phone-number:hover,
+.footer-contact-phone-number:focus,
+.footer-email:hover,
+.footer-email:focus,
+.address:hover,
+.address:focus {
+color: var(--active-color);
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    background-color: var(--btn-active-color)
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--main-light);
+    background-color: var(--active-color);
+}
+
+.first-logo-part {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--active-color);
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-color);
+}
+
+.menu-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--main-dark)
+}
+
+.contact-phone-number, .email {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--secondary-dark);
+}
+.header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-light);
+
+}
+
+.main-section {
+    background-color: var(--background-color);
+}
+
+.modal-button {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--main-light);
+    background-color: var(--active-color);
+}
+
+.title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.advantage {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.description {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--secondary-dark);
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-dark);
+}
+
+.footer {
+    background-color: var(--background-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-light);
+}
+
+.address {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--main-light);
+}
+
+.footer-email, .footer-contact-phone-number {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--secondary-light);
+}
+
+.btn { 
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    color: var(--main-dark);
+    background-color: var(--btn-color);
+}
+
+.project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-dark);
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--secondary-dark);
+}
