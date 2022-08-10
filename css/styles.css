@@ -45,12 +45,6 @@ color: var(--active-color);
     background-color: var(--btn-active-color)
 }
 
-.btn:hover,
-.btn:focus {
-    color: var(--main-light);
-    background-color: var(--active-color);
-}
-
 .first-logo-part {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
@@ -181,7 +175,10 @@ color: var(--active-color);
         color: var(--secondary-light);
 }
 
+/* Кнопки у Портфоліо */
 .btn { 
+    display: inline-block;
+    padding: 6px 22px;
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
@@ -192,6 +189,14 @@ color: var(--active-color);
     letter-spacing: 0.03em;
     color: var(--main-dark);
     background-color: var(--btn-color);
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--main-light);
+    background-color: var(--active-color);
+    border-radius: 4px;
+    padding: 6px 25px;
 }
 
 .project {
