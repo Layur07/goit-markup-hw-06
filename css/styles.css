@@ -53,6 +53,15 @@ color: var(--active-color);
         letter-spacing: 0.03em;
         color: var(--active-color);
 }
+
+.container {
+    width: 1230px;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Шапка */
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -82,15 +91,16 @@ color: var(--active-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-light);
+    margin-bottom: 30px;
 
 }
 
 .main-section {
     background-color: var(--background-color);
+    text-align: center;
 }
 
 .modal-button {
@@ -103,7 +113,6 @@ color: var(--active-color);
     min-width: 216px;
     line-height: 1.88;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     border-radius: 4px;
     cursor: pointer;
