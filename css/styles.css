@@ -11,6 +11,13 @@
     --btn-color: #F5F4FA;
     --btn-active-color: #188CE8;
 }
+.container {
+    width: 1230px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
 
 body {
     font-family: var(--main-font);
@@ -45,23 +52,22 @@ color: var(--active-color);
     background-color: var(--btn-active-color)
 }
 
-.first-logo-part {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: var(--active-color);
-}
-
-.container {
-    width: 1230px;
-    margin: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 /* Шапка */
+
+.page-nav {
+    outline: 1px solid tomato;
+}
+.menu {
+    display: flex;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+.menu-item {
+    outline: 1px solid tomato;
+    margin-right: 50px; 
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -70,6 +76,17 @@ color: var(--active-color);
     letter-spacing: 0.03em;
     color: var(--logo-color);
 }
+
+.first-logo-part {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--active-color);
+}
+
+
 
 .menu-link {
         font-style: normal;
