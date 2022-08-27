@@ -20,8 +20,8 @@
   <body>
     <!-- Шапка -->
     <header class="page-header">
-      <div class="container">
-        <nav class="page-nav">
+      <div class="container main">
+        <nav class="page-nav main">
           <a class="logo link" href="./index.html" lang="en"
             ><span class="first-logo-part">Web</span>Studio</a
           >
@@ -37,13 +37,13 @@
             </li>
           </ul>
         </nav>
-        <ul class="list">
-          <li>
+        <ul class="contacts list">
+          <li class="item">
             <a class="email link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item">
             <a class="contact-phone-number link" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
@@ -52,36 +52,39 @@
       </div>
     </header>
     <main>
+      <!-- Герой -->
       <section class="main-section">
         <div class="container">
-          <h1 class="header">Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="header">Ефективні рішення для <br>вашого бізнесу</br></h1>
         <button class="modal-button" type="button">Замовити послугу</button>
         </div>
       </section>
+      <!-- Особливості -->
       <section class="second-section">
-        <h2 class="title" hidden>Наші переваги</h2>
-        <ul class="list">
-          <li>
+        <div class="container">
+          <h2 class="title" hidden>Наші переваги</h2>
+        <ul class="list advantage-list">
+          <li class="a-item">
             <h3 class="advantage">Увага до деталей</h3>
             <p class="description">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="a-item">
             <h3 class="advantage">Пунктуальність</h3>
             <p class="description">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="a-item">
             <h3 class="advantage">Планування</h3>
             <p class="description">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="a-item">
             <h3 class="advantage">Сучасні технології</h3>
             <p class="description">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -89,25 +92,28 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
-      <section class="container">
-        <h2 class="title">Чим ми займаємося</h2>
-        <ul class="list">
-          <li>
+      <!-- Чим ми займаємся -->
+      <section class="third-section">
+        <div class="container">
+          <h2 class="title third-section-title">Чим ми займаємося</h2>
+        <ul class="list features">
+          <li class="features-item">
             <img
               src="./images/box_1.jpg"
               width="370"
               alt="Людина набирає код на клавіатурі"
             />
           </li>
-          <li>
+          <li class="features-item">
             <img
               src="./images/box_2.jpg"
               width="370"
               alt="Людина тримає смартфон"
             />
           </li>
-          <li>
+          <li class="features-item">
             <img
               src="./images/box_3.jpg"
               width="370"
@@ -115,9 +121,12 @@
             />
           </li>
         </ul>
+        </div>
       </section>
-      <section>
-        <h2 class="title">Наша команда</h2>
+      <!-- Наша команда -->
+      <section class="fourth-section">
+        <div class="container">
+          <h2 class="title">Наша команда</h2>
         <ul class="list">
           <li>
             <img
@@ -156,6 +165,7 @@
             <p class="position">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">

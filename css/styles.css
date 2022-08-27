@@ -10,6 +10,12 @@
     --background-color: #2F303A;
     --btn-color: #F5F4FA;
     --btn-active-color: #188CE8;
+    --border-color: #ECECEC;
+}
+
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
 }
 .container {
     width: 1230px;
@@ -30,7 +36,6 @@ body {
 
 .list {
     list-style: none;
-    padding: 0;
 }
 
 .menu-link:hover,
@@ -54,20 +59,24 @@ color: var(--active-color);
 }
 
 /* Шапка */
-
-.page-nav {
-    outline: 1px solid tomato;
+.page-header {
+    border: 1px solid var(--border-color);
 }
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
 .menu {
     display: flex;
-    padding: 0;
+    margin-left: 93px;
 }
 
 .menu-item:last-child {
     margin-right: 0;
 }
 .menu-item {
-    outline: 1px solid tomato;
     margin-right: 50px; 
 }
 .logo {
@@ -88,15 +97,24 @@ color: var(--active-color);
     color: var(--active-color);
 }
 
-
-
 .menu-link {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: var(--main-dark)
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-dark)
+}
+.contacts {
+    display: flex;
+    margin-left: auto;
+}
+
+.contacts .item + .item {
+    margin-left: 50px;
 }
 
 .contact-phone-number, .email {
@@ -106,6 +124,8 @@ color: var(--active-color);
         letter-spacing: 0.02em;
         color: var(--secondary-dark);
 }
+
+/* Герой */
 .header {
     font-weight: 900;
     font-size: 44px;
@@ -114,10 +134,10 @@ color: var(--active-color);
     text-transform: uppercase;
     color: var(--main-light);
     margin-bottom: 30px;
-
 }
 
 .main-section {
+    padding: 200px 0;
     background-color: var(--background-color);
     text-align: center;
 }
@@ -139,20 +159,33 @@ color: var(--active-color);
     background-color: var(--active-color);
 }
 
+/* Особливості */
+.second-section {
+    padding-top: 94px;
+}
+.advantage-list .a-item + .a-item {
+    margin-left: 30px;
+}
+
 .title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.advantage-list {
+    display: flex;
 }
 
 .advantage {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .description {
@@ -161,6 +194,26 @@ color: var(--active-color);
         letter-spacing: 0.03em;
         color: var(--secondary-dark);
 }
+
+/* Чим ми займаємся */
+.third-section {
+padding-top: 94px;
+}
+
+.features {
+    display: flex;
+}
+
+.third-section-title {
+margin-bottom: 50px;
+} 
+
+.features .features-item + .features-item {
+margin-left: 30px;
+}
+
+
+/* Наша команда */
 
 .name {
     font-weight: 500;
