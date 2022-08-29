@@ -60,7 +60,7 @@ color: var(--active-color);
 
 /* Шапка */
 .page-header {
-    border: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .main {
@@ -163,7 +163,7 @@ color: var(--active-color);
 }
 
 /* Особливості */
-.second-section {
+.section {
     padding-top: 94px;
 }
 .advantage-list .a-item + .a-item {
@@ -199,9 +199,6 @@ color: var(--active-color);
 }
 
 /* Чим ми займаємся */
-.third-section {
-padding-top: 94px;
-}
 
 .features {
     display: flex;
