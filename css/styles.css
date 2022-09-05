@@ -18,7 +18,7 @@ h1, h2, h3, p, ul {
     padding: 0;
 }
 .container {
-    width: 1230px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -36,6 +36,13 @@ body {
 
 .list {
     list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
 }
 
 .menu-link:hover,
@@ -165,12 +172,14 @@ color: var(--active-color);
 /* Особливості */
 .section {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .advantage-list .a-item + .a-item {
     margin-left: 30px;
 }
 
 .title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -180,7 +189,6 @@ color: var(--active-color);
 
 .advantage-list {
     display: flex;
-    padding: 0 15px;
 }
 
 .advantage {
@@ -201,9 +209,12 @@ color: var(--active-color);
 
 /* Чим ми займаємся */
 
+.features-section {
+    padding-top: 0;
+}
+
 .features {
     display: flex;
-    padding: 0 15px;
 }
 
 .third-section-title {
@@ -217,6 +228,29 @@ margin-left: 30px;
 
 /* Наша команда */
 
+.team-section {
+    background-color: var(--btn-color);
+}
+
+.team {
+    display: flex;
+}
+
+.team .team-item + .team-item {
+    margin-left: 30px;
+}
+
+.team-item {
+    text-align: center;
+    background-color: var(--main-light);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.name-item {
+    padding: 30px 0;
+}
+
 .name {
     font-weight: 500;
     font-size: 16px;
@@ -225,6 +259,7 @@ margin-left: 30px;
 }
 
 .position {
+    margin-top: 10px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -235,10 +270,14 @@ margin-left: 30px;
 /* Футер */
 
 .footer {
+    display: block;
+    padding: 60px 0;
     background-color: var(--background-color);
 }
 
 .footer-logo {
+    display: block;
+    margin-bottom: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -246,13 +285,16 @@ margin-left: 30px;
     letter-spacing: 0.03em;
     color: var(--main-light);
 }
+.list .footer-elements + .footer-elements {
+    margin-top: 9px;
+}
 
 .address {
-        font-style: normal;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--main-light);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-light);
 }
 
 .footer-email, .footer-contact-phone-number {
