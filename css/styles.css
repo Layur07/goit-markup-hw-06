@@ -42,7 +42,6 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-
 }
 
 .menu-link:hover,
@@ -320,6 +319,11 @@ margin-left: 30px;
 }
 
 /* Кнопки у Портфоліо */
+
+.btn-flex {
+display: flex;
+}
+
 .btn { 
     display: inline-block;
     padding: 6px 22px;
