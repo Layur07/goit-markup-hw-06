@@ -322,6 +322,12 @@ margin-left: 30px;
 
 .btn-flex {
 display: flex;
+justify-content: center;
+margin-bottom: 50px;
+}
+
+.btn-flex .btn-item + .btn-item {
+    margin-left: 8px;
 }
 
 .btn { 
@@ -337,31 +343,42 @@ display: flex;
     letter-spacing: 0.03em;
     color: var(--main-dark);
     background-color: var(--btn-color);
+    border: 0;
 }
 
 .btn:hover,
 .btn:focus {
     color: var(--main-light);
     background-color: var(--active-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     padding: 6px 25px;
 }
 
+/* Картки у Портфоліо */
+
 .projects {
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: -30px;
+    flex-basis: calc(100%/3-30px);
 }
 
 .flex-element {
     width: 370px;
-    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
-.flex-element:nth-child(3n) {
-    margin-right: 0;
+.project-name {
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: 0;
 }
 
 .project {
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
