@@ -11,6 +11,8 @@
     --btn-color: #F5F4FA;
     --btn-active-color: #188CE8;
     --border-color: #ECECEC;
+    --hero-background: #C4C4C4;
+    --gradient-color: rgba(47, 48, 58, 0.4);
 }
 
 h1, h2, h3, p, ul {
@@ -146,8 +148,21 @@ color: var(--active-color);
 }
 
 .main-section {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 200px 0;
-    background-color: var(--background-color);
+    background-color: var(--hero-background);
+    background-image: linear-gradient(
+        to right,
+        var(--gradient-color),
+        var(--gradient-color)
+    ),
+     url(../images/overlay.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     text-align: center;
 }
 
