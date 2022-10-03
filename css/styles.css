@@ -88,6 +88,8 @@ color: var(--active-color);
     margin-right: 50px; 
 }
 .logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -126,7 +128,8 @@ color: var(--active-color);
 }
 
 .contact-phone-number, .email {
-    display: block;
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -134,6 +137,23 @@ color: var(--active-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-dark);
+}
+
+.email:hover .envelope-icon,
+.email:focus .envelope-icon,
+.contact-phone-number:hover .smartphone-icon,
+.contact-phone-number:focus .smartphone-icon {
+    fill: var(--active-color);
+}
+
+.envelope-icon {
+    margin-right: 10px;
+    fill: var(--secondary-dark);
+}
+
+.smartphone-icon {
+    margin-right: 10px;
+    fill: var(--secondary-dark);
 }
 
 /* Герой */
