@@ -386,8 +386,12 @@ margin-left: 30px;
 
 .footer {
     display: block;
-    padding: 60px 0;
+    
     background-color: var(--background-color);
+}
+
+.left-footer {
+    padding: 60px 0;
 }
 
 .footer-logo {
@@ -418,6 +422,54 @@ margin-left: 30px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--secondary-light);
+}
+
+.footer-flex {
+    display: flex;
+}
+
+.social-block {
+    padding-top: 72px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-light)
+}
+
+.footer-social {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social .footer-social-item + .footer-social-item {
+    margin-left: 10px;
+}
+
+.footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.footer-social-icon {
+    fill: var(--main-light)
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--active-color);
 }
 
 /* Кнопки у Портфоліо */
@@ -471,6 +523,11 @@ margin-bottom: 50px;
     width: 370px;
     margin-left: 30px;
     margin-bottom: 30px;
+    background-color: var(--main-light);
+}
+
+.flex-element:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-name {
