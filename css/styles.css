@@ -117,7 +117,8 @@ color: var(--active-color);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--main-dark)
+    color: var(--main-dark);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts {
     display: flex;
@@ -138,6 +139,7 @@ color: var(--active-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-dark);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email:hover .envelope-icon,
@@ -150,6 +152,7 @@ color: var(--active-color);
 .envelope-icon, .smartphone-icon {
     margin-right: 10px;
     fill: var(--secondary-dark);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current {
@@ -201,6 +204,7 @@ color: var(--active-color);
     cursor: pointer;
     color: var(--main-light);
     background-color: var(--active-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Особливості */
@@ -345,10 +349,12 @@ margin-left: 30px;
     height: 44px;
     background-color: var(--main-light);
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
     fill: var(--clients-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:hover,
@@ -377,10 +383,12 @@ margin-left: 30px;
     justify-content: center;
     border: 1px solid var(--clients-color);
     border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-icon {
     fill: var(--clients-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client:hover,
@@ -421,6 +429,7 @@ margin-left: 30px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-light);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-email, .footer-contact-phone-number {
@@ -429,6 +438,7 @@ margin-left: 30px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--secondary-light);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-flex {
@@ -467,6 +477,7 @@ margin-left: 30px;
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-icon {
