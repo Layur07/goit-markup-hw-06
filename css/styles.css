@@ -602,3 +602,12 @@ margin-bottom: 50px;
 .portfolio-card {
     display: block;
 }
+
+/* Модальне вікно */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
