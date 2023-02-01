@@ -696,3 +696,15 @@ img {
   background-color: var(--main-light);
   cursor: pointer;
 }
+
+.form {
+  padding: 40px;
+}
+
+.form-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+}
